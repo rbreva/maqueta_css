@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color:#fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+section{
+    padding-bottom: 80px;
+}
+
+.presentacion_pos{
+    width: 100%;
+    position: relative;
+    padding-bottom: 0px;
+}
+
+/*-------no encuentro el espacio --------*/
+.presentacion_pos figure{
+    height: 526px;
+}
+
+.presentacion_pos figure img{
+    width: 100%;
+}
+
+.presentacion_pos .nombre{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.presentacion_pos h2{
+    position: absolute;
+    background-color: rgba(114, 153, 254, 0.5);
+    left: 50px;
+    top: 270px;
+    width: 365px;
+    height: 117px;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.skylls{
+    background-color: #7299FE;
+    padding: 0px 90px 70px 90px;
+}
+
+/*----con 50% no divide porque????------*/
+.skylls .skyll{
+    display: inline-block;
+    width: 49%;
+    padding: 5px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.skylls .skyll h2{
+    font-size: 14px;
+    text-align: left;
+    padding: 0;
+}
+
+.skylls .skyll .barra{
+    width: 100%;
+}
+
+/*---- aca lo solucioné con float left------*/
+.skylls .skyll .barra .logrado{
+    width: 50%;
+    height: 17px;
+    background-color: #000000;
+    float:left;
+}
+
+.skylls .skyll .barra .falta{
+    width: 50%;
+    height: 17px;
+    background-color: #ffffff;
+    float:left;;
+}
+
+.servicios{
+    background-color: #FB7171;
+    padding-bottom: 50px;
+}
+
+.servicios .lista_servicios{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.servicios .lista_servicios li{
+    list-style: none;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto';as
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.servicios .lista_servicios img{
+    width: 42px;
+    margin-bottom: 10px;
+}
+
+.portafolio{
+    background-color: #FFD233;
+}
+
+.portafolio .entorno{
+    width: 100%;
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.portafolio .entorno figure{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.clientes{
+    background-color: #3F4E62;
+    
+}
+
+.clientes .entorno{
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.clientes .entorno figure{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.contacto{
+    background-color: #16A085;
+}
+
+.contacto form{
+    width: 100%;
+    max-width:770px;
+    margin: 0 auto;
+}
+
+.contacto form input{
+    width: 47%;
+    padding: 18px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.contacto form .form_textarea{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.contacto form .form_textarea textarea{
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.contacto form button{
+    background-color: #233451;
+    border: none;
+    padding: 15px 45px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
