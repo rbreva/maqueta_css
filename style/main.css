@@ -46,6 +46,7 @@ section{
 
 .presentacion_pos figure img{
     width: 100%;
+    display: block;
 }
 
 .presentacion_pos .nombre{
@@ -87,21 +88,19 @@ section{
 
 .skylls .skyll .barra{
     width: 100%;
+    display: flex;
 }
 
-/*---- aca lo solucioné con float left------*/
 .skylls .skyll .barra .logrado{
     width: 50%;
     height: 17px;
     background-color: #000000;
-    float:left;
-}
+ }
 
 .skylls .skyll .barra .falta{
     width: 50%;
     height: 17px;
     background-color: #ffffff;
-    float:left;;
 }
 
 .servicios{
@@ -121,7 +120,7 @@ section{
     width: 32%;
     text-align: center;
     color: #fff;
-    font-family: 'Roboto';as
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 17px;
     margin-bottom: 35px;
