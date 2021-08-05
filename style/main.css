@@ -89,19 +89,13 @@ section{
 .skylls .skyll .barra{
     width: 100%;
     display: flex;
+    background-color: #ffffff;
 }
 
 .skylls .skyll .barra .logrado{
-    width: 50%;
     height: 17px;
     background-color: #000000;
  }
-
-.skylls .skyll .barra .falta{
-    width: 50%;
-    height: 17px;
-    background-color: #ffffff;
-}
 
 .servicios{
     background-color: #FB7171;
